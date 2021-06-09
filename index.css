@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+body{
+  overflow-x: hidden;
+}
+
 .row::after {
   content: "";
   clear: both;
@@ -300,6 +304,10 @@ img{
   margin-right: 8.33%;
 }
 
+.hey{
+  padding-top: 15vh;
+}
+
 .parking3{
   height: auto;
   width: 100%;
@@ -315,6 +323,11 @@ img{
 
 #sectionThree{
   display: block;
+}
+
+#sectionFive{
+  padding-bottom: 5vh;
+  margin-bottom: 10vh;
 }
 
 .animation .parking {
@@ -338,6 +351,110 @@ img{
 .this{
   padding: 0px;
   padding-bottom: 15px;
+}
+
+.wvr-parking {
+  width: 90%;
+}
+.wvr-txt {
+  width: 85%;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 148.2%;
+  color: rgba(24, 25, 31, 0.6);
+}
+
+.common-header {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 140%;
+  color: #18191F;
+  text-align: center;
+  margin-top: 5vh;
+}
+
+.align-items-center{
+  text-align: center;
+}
+
+.mekparkNav{
+  padding-left: 20px;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+#sectionFour{
+  margin-bottom: 5vh;
+  margin-top: 10vh
+}
+
+.theme-color {
+  background-color: #F1F2F4;
+}
+
+.common-txt1 {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #18191F;
+}
+.common-txt2 {
+  font-family: 'Manrope', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #18191F;
+}
+.hiw-img-margin {
+  margin-bottom: 16px;
+}
+.box:hover {
+  transform: scale(0.8);
+  transition-duration: 0.5s;
+}
+.ben-img {
+  width: 75%;
+}
+.b-con {
+  width: 513px;
+  padding: 25px;
+  background: rgba(236, 238, 241, 0.75);
+  border-radius: 22px;
+}
+.black-line {
+  width: 100%;
+  border: 2px solid #18191F;
+}
+.p-circle {
+  position: absolute;
+  width: 440px;
+  height: 220px;
+  background: linear-gradient(180deg, #FFFFFF -50%, rgba(255, 255, 255, 0.04) 75%), #FF2734;
+  bottom: -35px;
+  border-radius: 0 0 300px 300px;
+  padding: 60px;
+}
+.partner-img {
+  width: auto;
+  height: 65px;
+}
+.r-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  background: #FF2734;
+  margin: 11px 11px 11px 0;
+}
+.f-r-revrse {
+  flex-direct
+}
+
+.justify-items-center{
+  text-align: center;
 }
 
 @media (min-width:961px) {
@@ -413,5 +530,112 @@ img{
       top: 62%;
       width: 30%;
   }
+  .wvr-parking {
+    width: 267px;
+  }
+  .wvr-txt {
+    width: 100%;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .common-header {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+  .f-d-column {
+    flex-direction: column;
+  }
+}
 
+.footer {
+  background: #F1F2F4;
+  font-size: 14px;
+}
+.footer .footer-top {
+  padding: 60px 0 30px 0;
+}
+.footer .footer-top .footer-info, .footer .footer-top .footer-links  {
+  margin-bottom: 30px;
+}
+.footer .footer-top .footer-info .logo {
+  line-height: 0;
+  margin-bottom: 15px;
+}
+.footer .footer-top .footer-info .logo img {
+  width: 56px;
+  margin-right: 25px;
+}
+.footer .footer-top .footer-info .logo {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 33px;
+  letter-spacing: 1px;
+  color: #18191F;
+  font-family: "Manrope", sans-serif;
+  margin-top: 3px;
+}
+.footer .footer-top .footer-info .logo span {
+  color: #FF2734;
+}
+.footer .footer-top .footer-info p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 8px;
+  color: #18191F;
+  font-family: "Manrope", sans-serif;
+}
+.footer .footer-top h4 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #18191F;
+  position: relative;
+  padding-bottom: 24px;
+}
+.footer .footer-top .footer-links ul a {
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+}
+.social-links {
+display: flex;
+}
+.social-links a {
+  font-size: 17px;
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  background-color: rgba(24, 25, 31, 0.1);
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  color: #18191F;
+  margin-right: 16px;
+  transition: 0.3s;
+}
+.footer .footer-top .social-links a:hover {
+  color: #FF2734;
+}
+@media (max-width: 777px) {
+.footer .footer-top .footer-links ul li, .footer .footer-top .footer-info .logo {
+  justify-content: center;
+}
+.footer .footer-top .footer-info, .footer .footer-top .footer-links  {
+  margin-bottom: 0;
+}
+.footer .footer-top .social-links {
+  width: 60%;
+  margin: auto;
+  justify-content: space-around;
+}
+.footer .footer-top .social-links a {
+  margin: 0;
+}
+.t-align-center {
+  text-align: center;
+}
 }
